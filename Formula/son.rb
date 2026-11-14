@@ -1,28 +1,28 @@
 class Son < Formula
   desc "One memory for every AI agent: one binary, one SQLite file"
   homepage "https://son-of-w.com"
-  version "0.1.16"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/son-of-w/son/releases/download/v0.1.16/son-v0.1.16-aarch64-apple-darwin.tar.gz"
-      sha256 "37e55888ac919210d04f7f81df987e59dbb9c5b143f448aeae386de349b4629b"
+      url "https://github.com/son-of-w/son/releases/download/v1.0.0/son-v1.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a147cecc40db1676d0026385d11d04605401e907c8d85ea5633d20a45bddcde1"
     end
     on_intel do
-      url "https://github.com/son-of-w/son/releases/download/v0.1.16/son-v0.1.16-x86_64-apple-darwin.tar.gz"
-      sha256 "02d22e89f49254cc935751722dd2759a8b80b93eedfbb17ba10aaa9c26c848b4"
+      url "https://github.com/son-of-w/son/releases/download/v1.0.0/son-v1.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "f4b6f6a92e60835315afe342620936a1177df9ad759c3f4eb9ee98b72a580d9e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/son-of-w/son/releases/download/v0.1.16/son-v0.1.16-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "367ef858f5ed5221183f7f909e52bb561082070d11de4dc2ead9aa66f60a554e"
+      url "https://github.com/son-of-w/son/releases/download/v1.0.0/son-v1.0.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "a4ca0f3ca9c75886298a46dae767aacd66559db14572a27243168f195449f44e"
     end
     on_intel do
-      url "https://github.com/son-of-w/son/releases/download/v0.1.16/son-v0.1.16-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b2a90cd97f3f0887429df8c1a7626664c467534072cd66fda1283c8551891a88"
+      url "https://github.com/son-of-w/son/releases/download/v1.0.0/son-v1.0.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "34a09ee5466ab5b9a089012348dbf9dab121499e274bd1f6c4910e87f1fbbcb4"
     end
   end
 
